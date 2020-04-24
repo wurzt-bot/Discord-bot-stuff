@@ -47,6 +47,10 @@ class General(commands.Cog):
     @commands.command()
     async def void(self, ctx):
         await ctx.channel.send('_ _')
+       
+    @commands.command()
+    async def wurzt(self, ctx):
+        await ctx.channel.send('https://cdn.discordapp.com/attachments/679497487177875517/703384378062930021/owo.gif')
 
     @commands.command(brief='show your tag')
     async def tag(self, ctx):
